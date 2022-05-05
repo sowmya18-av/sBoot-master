@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	stages {
-		satge('Build') {
+		satge ('Build') {
 			steps {
 				sh 'echo test'
 				sh '''
